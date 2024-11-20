@@ -17,3 +17,6 @@ src/
 ├── style.css
 └── script.js
 ```
+
+## License
+This template is licensed under [CC0](https://creativecommons.org/publicdomain/zero/1.0/). Libraries or plugins used here might have their own license.
