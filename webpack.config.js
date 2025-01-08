@@ -99,7 +99,7 @@ module.exports = {
         },
       },
       {
-        test: /\.(woff2|woff)$/,
+        test: /\.(ttf|woff2?)$/,
         type: "asset/resource",
         generator: {
           filename: "[hash:8][ext]",

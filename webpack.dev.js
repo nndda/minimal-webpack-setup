@@ -41,6 +41,13 @@ module.exports = {
         test: /\.(ico|png|jpe?g|webp|svg)$/,
         type: "asset/resource",
       },
+      {
+        test: /\.(ttf|woff2?)$/,
+        type: "asset/resource",
+        generator: {
+          filename: "[name]-[hash:6][ext]",
+        },
+      },
     ],
   },
 };
