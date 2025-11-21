@@ -1,8 +1,12 @@
-let seconds = 0
 
-setInterval(() => {
-  seconds++
-  document.querySelector("h2").textContent = `
-    ${seconds} seconds has passed...
-  `
-}, 1000)
+window.addEventListener("DOMContentLoaded", () => {
+
+  let seconds = 0
+  const timeEl = document.querySelector("#time-passed")
+
+  setInterval(() => {
+    seconds++
+    timeEl.textContent = `${seconds} seconds has passed...`
+  }, 1000)
+
+})
